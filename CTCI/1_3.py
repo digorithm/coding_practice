@@ -8,9 +8,6 @@ def is_perm(str1, str2):
     str1 = list(str1)
     str2 = list(str2)
 
-    if len(str1) != len(str2):
-        return False
-
     for ch in str1:
         if ch not in str2:
             return False
